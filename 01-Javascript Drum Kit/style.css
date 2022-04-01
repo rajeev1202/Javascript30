@@ -1,0 +1,30 @@
+body {
+    background-image: url("./assets/background-img.jpg");
+    background-color: rgb(179, 232, 221);
+    height:inherit;
+    margin: 0px;
+}
+
+.drum-wrapper{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.key{
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

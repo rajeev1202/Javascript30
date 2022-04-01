@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript Drum Kit</title>
+        <link rel="stylesheet" href="./style.css">
+        
+    </head>
+    <body onload="addCickEvent()">
+        <!-- <h1 style="color:lime;">Javascript Drum Kit</h1> -->
+        <div class="drum-wrapper">
+            <div class="key" data-key="65">A</div>
+            <div class="key" data-key="83">S</div>
+            <div class="key" data-key="68">D</div>
+            <div class="key" data-key="70">F</div>
+            <div class="key" data-key="71">G</div>
+            <div class="key" data-key="72">H</div>
+            <div class="key" data-key="74">J</div>
+            <div class="key" data-key="75">K</div>
+            <div class="key" data-key="76">L</div>
+        </div>
+
+        <div class="audio-collection">
+            <audio data-key="65"><source src="./assets/sounds/clap.wav" type="audio/wav"></audio>
+            <audio data-key="83"><source src="./assets/sounds/boom.wav" type="audio/wav"></audio>
+            <audio data-key="68"><source src="./assets/sounds/hihat.wav" type="audio/wav"></audio>
+            <audio data-key="70"><source src="./assets/sounds/kick.wav" type="audio/wav"></audio>
+            <audio data-key="71"><source src="./assets/sounds/openhat.wav" type="audio/wav"></audio>
+            <audio data-key="72"><source src="./assets/sounds/ride.wav" type="audio/wav"></audio>
+            <audio data-key="74"><source src="./assets/sounds/snare.wav" type="audio/wav"></audio>
+            <audio data-key="75"><source src="./assets/sounds/tink.wav" type="audio/wav"></audio>
+            <audio data-key="76"><source src="./assets/sounds/tom.wav" type="audio/wav"></audio>
+        </div>
+        <script type="text/javascript" src="./index.js"></script>
+
+    </body>
+</html>

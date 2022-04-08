@@ -3,6 +3,7 @@ body {
     background-color: rgb(179, 232, 221);
     height:inherit;
     margin: 0px;
+    font-family: monospace;
 }
 
 .drum-wrapper{
@@ -19,12 +20,24 @@ html {
 }
 
 
+
+
 .key{
     height: 60px;
     width: 60px;
-    background-color: black;
-    color: blanchedalmond;
+    border: 2px solid rgb(27, 28, 27,0.7);
+    background-color:rgb(27, 28, 27,0.7);
+    color: yellow;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.4s;
+    flex-direction: column;
+    gap: 3px;
+    font-size: 1.1em;
+}
+
+.play-key{
+    transform: scale(2);
+    border: 2px solid yellow;
 }

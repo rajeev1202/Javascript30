@@ -31,4 +31,6 @@ body{
  top: 50%;
  transform: rotate(90deg);
  transform-origin: right;
+ transition: all 0.5;
+ transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
 }

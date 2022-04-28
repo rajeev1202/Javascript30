@@ -25,10 +25,87 @@ body{
 }
 
 .hour-hand,.minute-hand,.second-hand{
- border-bottom: 1px solid black;
  width: 40px;
  position: absolute;
  top: 50%;
  transform: rotate(90deg);
  transform-origin: right;
+ transition: all 0.5;
+ transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
 }
+
+.hour-hand {
+    border-bottom: 3px solid black;
+}
+.minute-hand{
+    border-bottom: 2px solid black;
+}
+.second-hand{
+    border-bottom: 1px solid black;
+}
+
+.center-dot{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 47%;
+    left: 46%;
+    background-color: green;
+    box-shadow: 0px 0px 1px 2px lightsalmon;
+}
+
+.number{
+font-family: sans-serif;
+color: white;
+}
+
+.num-12{
+    position: absolute;
+    top: -17px;
+    left: 37%;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-family: sans-serif;
+    background-color: green;
+    padding: 2px;
+}
+
+.num-3{
+    position: absolute;
+    right: -10px;
+    top: 37%;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-family: sans-serif;
+    background-color: green;
+    padding: 2px;
+}
+
+.num-6{
+    position: absolute;
+    bottom: -17px;
+    left: 44%;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-family: sans-serif;
+    background-color: green;
+    padding: 2px;
+}
+
+.num-9{
+    position: absolute;
+    left: -11px;
+    top: 42%;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-family: sans-serif;
+    background-color: green;
+    padding: 2px;
+}
+
+
